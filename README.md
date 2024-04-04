@@ -112,13 +112,7 @@ Next, follow the steps below:
    npm install
    ```
 
-2. Start the database:
-
-   ```bash
-   npx prisma migrate deploy
-   ```
-
-3. Start the server:
+2. Start the server:
 
    ```bash
    npm run dev
