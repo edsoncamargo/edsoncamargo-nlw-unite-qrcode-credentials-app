@@ -37,9 +37,9 @@ The following are the key technologies and tools used in the development of this
 - **Fastify**: Is a web framework highly focused on providing the best developer experience with the least overhead and a powerful plugin architecture.
 - **Prisma**: Is a next-generation ORM that consists of these tools:
 
-Prisma Client: Auto-generated and type-safe query builder for Node.js & TypeScript
-Prisma Migrate: Declarative data modeling & migration system
-Prisma Studio: GUI to view and edit data in your database
+  - Prisma Client: Auto-generated and type-safe query builder for Node.js & TypeScript
+  - Prisma Migrate: Declarative data modeling & migration system
+  - Prisma Studio: GUI to view and edit data in your database
 
 - **Zod**: Is a TypeScript-first schema declaration and validation library. I'm using the term "schema" to broadly refer to any data type, from a simple string to a complex nested object.
 
