@@ -55,6 +55,7 @@ export default function Ticket() {
 
   async function handleShare() {
     try {
+      console.log("entrei");
       if (badgeStore.data?.checkInURL) {
         await Share.share({
           message: badgeStore.data.checkInURL,
@@ -108,10 +109,7 @@ export default function Ticket() {
         </View>
 
         <View>
-          <Text
-            className="text-white font-bold text-2xl mt-4"
-            onPress={handleShare}
-          >
+          <Text className="text-white font-bold text-2xl mt-4">
             Compartilhar credencial 🎫
           </Text>
 
@@ -121,7 +119,7 @@ export default function Ticket() {
           </Text>
         </View>
 
-        <Button title="Compartilhar"></Button>
+        <Button title="Compartilhar" onPress={() => handleShare()}></Button>
 
         <TouchableOpacity
           activeOpacity={0.7}
