@@ -102,7 +102,7 @@ export default function Register() {
         </Input>
 
         <Button
-          title="Acessar credencial"
+          title="Criar credencial"
           onPress={handleRegister}
           isLoading={isLoading}
         />
