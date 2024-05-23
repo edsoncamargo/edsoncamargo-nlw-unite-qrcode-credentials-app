@@ -80,7 +80,7 @@ To run the app locally, follow these steps:
 Clone the repository:
 
 ```bash
-git clone https://github.com/edsoncamargo/nlw-unite-pass-in-app
+git clone git@github.com:edsoncamargo/nlw-unite-pass-in-app.git
 cd your-path/nlw-unite-pass-in-app
 ```
 
